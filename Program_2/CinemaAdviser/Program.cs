@@ -33,7 +33,7 @@ namespace CinemaAdviser
 
             if (genre == "детектив")
             {
-                Console.WriteLine("В таком случае рекомендуем к просмотру:");
+                Console.WriteLine("Это все детективы, котороые у меня есть:");
                 Console.WriteLine("Шерлок");
                 Console.WriteLine("Достать ножи");
                 Console.WriteLine("Черный ящик");
@@ -41,6 +41,7 @@ namespace CinemaAdviser
 
             if (genre == "мульт")
             {
+                Console.WriteLine("Есть такие мультфильмы:");
                 Console.WriteLine("Ну, погоди!");
                 Console.WriteLine("Рататуй");
                 Console.WriteLine("Шрэк");

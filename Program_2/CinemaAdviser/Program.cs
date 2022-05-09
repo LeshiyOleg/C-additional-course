@@ -23,7 +23,7 @@ namespace CinemaAdviser
                 Console.WriteLine("1+1");
             }
                 
-            if (genre == "драма")
+            else if (genre == "драма")
             {
                 Console.WriteLine("В таком случае рекомендуем к просмотру:");
                 Console.WriteLine("Зеленая миля");
@@ -31,7 +31,7 @@ namespace CinemaAdviser
                 Console.WriteLine("Форрест Гамп");
             }
 
-            if (genre == "детектив")
+            else if (genre == "детектив")
             {
                 Console.WriteLine("Это все детективы, котороые у меня есть:");
                 Console.WriteLine("Шерлок");
@@ -39,7 +39,7 @@ namespace CinemaAdviser
                 Console.WriteLine("Черный ящик");
             }
 
-            if (genre == "мульт")
+            else if (genre == "мульт")
             {
                 Console.WriteLine("Есть такие мультфильмы:");
                 Console.WriteLine("Ну, погоди!");

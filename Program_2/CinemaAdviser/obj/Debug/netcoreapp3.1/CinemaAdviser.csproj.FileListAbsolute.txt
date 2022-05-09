@@ -1,0 +1,14 @@
+C:\Users\parkl\Desktop\GeekBrains\Дополнительные курсы\Знакомство с языком C#\Program_2\CinemaAdviser\bin\Debug\netcoreapp3.1\CinemaAdviser.exe
+C:\Users\parkl\Desktop\GeekBrains\Дополнительные курсы\Знакомство с языком C#\Program_2\CinemaAdviser\bin\Debug\netcoreapp3.1\CinemaAdviser.deps.json
+C:\Users\parkl\Desktop\GeekBrains\Дополнительные курсы\Знакомство с языком C#\Program_2\CinemaAdviser\bin\Debug\netcoreapp3.1\CinemaAdviser.runtimeconfig.json
+C:\Users\parkl\Desktop\GeekBrains\Дополнительные курсы\Знакомство с языком C#\Program_2\CinemaAdviser\bin\Debug\netcoreapp3.1\CinemaAdviser.runtimeconfig.dev.json
+C:\Users\parkl\Desktop\GeekBrains\Дополнительные курсы\Знакомство с языком C#\Program_2\CinemaAdviser\bin\Debug\netcoreapp3.1\CinemaAdviser.dll
+C:\Users\parkl\Desktop\GeekBrains\Дополнительные курсы\Знакомство с языком C#\Program_2\CinemaAdviser\bin\Debug\netcoreapp3.1\CinemaAdviser.pdb
+C:\Users\parkl\Desktop\GeekBrains\Дополнительные курсы\Знакомство с языком C#\Program_2\CinemaAdviser\obj\Debug\netcoreapp3.1\CinemaAdviser.csproj.AssemblyReference.cache
+C:\Users\parkl\Desktop\GeekBrains\Дополнительные курсы\Знакомство с языком C#\Program_2\CinemaAdviser\obj\Debug\netcoreapp3.1\CinemaAdviser.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\parkl\Desktop\GeekBrains\Дополнительные курсы\Знакомство с языком C#\Program_2\CinemaAdviser\obj\Debug\netcoreapp3.1\CinemaAdviser.AssemblyInfoInputs.cache
+C:\Users\parkl\Desktop\GeekBrains\Дополнительные курсы\Знакомство с языком C#\Program_2\CinemaAdviser\obj\Debug\netcoreapp3.1\CinemaAdviser.AssemblyInfo.cs
+C:\Users\parkl\Desktop\GeekBrains\Дополнительные курсы\Знакомство с языком C#\Program_2\CinemaAdviser\obj\Debug\netcoreapp3.1\CinemaAdviser.csproj.CoreCompileInputs.cache
+C:\Users\parkl\Desktop\GeekBrains\Дополнительные курсы\Знакомство с языком C#\Program_2\CinemaAdviser\obj\Debug\netcoreapp3.1\CinemaAdviser.dll
+C:\Users\parkl\Desktop\GeekBrains\Дополнительные курсы\Знакомство с языком C#\Program_2\CinemaAdviser\obj\Debug\netcoreapp3.1\CinemaAdviser.pdb
+C:\Users\parkl\Desktop\GeekBrains\Дополнительные курсы\Знакомство с языком C#\Program_2\CinemaAdviser\obj\Debug\netcoreapp3.1\CinemaAdviser.genruntimeconfig.cache

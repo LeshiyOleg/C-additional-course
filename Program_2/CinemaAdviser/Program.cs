@@ -12,7 +12,7 @@ namespace CinemaAdviser
             
             Console.WriteLine("Привет, " + name);
 
-            Console.WriteLine("Что хотим смотреть сегодня: комедию, драму, детектив, мульт");
+            Console.WriteLine("Что хотим смотреть сегодня: комедия, драма, детектив, мульт, триллер, боевик");
             String genre = Console.ReadLine();
             if(genre == "комедия")
             {
@@ -46,6 +46,24 @@ namespace CinemaAdviser
                 Console.WriteLine("Рататуй");
                 Console.WriteLine("Шрэк");
                 Console.WriteLine("Холодное сердце");
+            }
+
+            else if (genre == "триллер")
+            {
+                Console.WriteLine("Выбирай триллер:");
+                Console.WriteLine("Бойцовский клуб");
+                Console.WriteLine("Остров проклятых");
+                Console.WriteLine("Престиж");
+                Console.WriteLine("Семь");
+            }
+
+            else if (genre == "боевик")
+            {
+                Console.WriteLine("Какой боевик посмотришь?");
+                Console.WriteLine("Карты, деньги, два ствола");
+                Console.WriteLine("Джон Уик");
+                Console.WriteLine("Крепкий орешек");
+                Console.WriteLine("Убить Билла");
             }
 
             else

@@ -9,9 +9,48 @@ namespace TurtleTraining_ver_2
 {
     class Program
     {
+        static void WriteT(int sizeT)
+        {
+            // Буква "Т" начало
+            Turtle.Angle = 0;
+            Turtle.Move(sizeT);
+            //Turtle.Angle = 270;
+            Turtle.TurnLeft();
+            Turtle.Move(sizeT / 3);
+            Turtle.Angle = 90;
+            Turtle.Move(2 * sizeT / 3);
+            // Буква "Т" конец
+        }
+        static void WriteO(int sizeO)
+        {
+            // Буква "О" начало
+             Turtle.Angle = 0;
+            for (int i = 0; i < 4; i++)
+            {
+                Turtle.Move(sizeO);
+                Turtle.TurnRight();
+            }
+            // Буква "О" конец
+        }
+
+        static void WriteP(int sizeP)
+        {
+            // Буква "P" начало
+            Turtle.Angle = 0;
+            for (int i = 0; i < 4; i++)
+            {
+                Turtle.Move(sizeP);
+                Turtle.TurnRight();
+            }
+            Turtle.Angle = 180;
+            Turtle.Move(sizeP);
+            // Буква "P" конец
+        }
+
+        // static void WriteK (int sizeK)
         static void Main(string[] args)
         {
-            Turtle.Speed = 9;
+            //Turtle.Speed = 8;
             /* int n = 0;
             while (n < 4)
             {
@@ -33,14 +72,62 @@ namespace TurtleTraining_ver_2
                 n++; 
             }
             */
-            int i = 0;
 
-            while (i<6)
-            {
-                Turtle.Move(50);
-                Turtle.Turn(60);
-                i++;
-            }
+
+            //int i = 0;
+
+            //while (i < 6)
+            //{
+            //    turtle.move(50);
+            //    turtle.turn(60);
+            //    i++;
+            //}
+
+
+            //for (int i=0; i<4; i++)
+            //{
+            //    turtle.move(20);
+            //    turtle.turnright();
+            //    turtle.move(20);
+            //    turtle.turnright();
+            //    turtle.move(20);
+            //    turtle.turnleft();
+            //    turtle.move(20);
+            //    turtle.turnleft();
+            //}
+
+            // Торт
+
+            Turtle.Speed = 8;
+            Turtle.X = 200;
+            Turtle.Y = 200;
+
+            WriteT(60);
+
+            Turtle.X = 260;
+            Turtle.Y = 200;
+
+            WriteO(30);
+
+            Turtle.X = 330;
+            Turtle.Y = 200;
+
+            WriteP(30);
+
+            Turtle.X = 410;
+            Turtle.Y = 200;
+
+            WriteT(30);
+
+            // Имя Ксю
+
+            //Turtle.Speed = 9;
+            //Turtle.X = 100;
+            //Turtle.Y = 100;
+
+            //Write
+
         }
     }
 }
+

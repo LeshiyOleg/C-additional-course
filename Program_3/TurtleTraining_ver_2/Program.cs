@@ -47,7 +47,34 @@ namespace TurtleTraining_ver_2
             // Буква "P" конец
         }
 
-        // static void WriteK (int sizeK)
+        static void WriteK(int sizeK)
+        {
+            // Буква K начало
+            Turtle.Angle = 0;
+            Turtle.Move(sizeK);
+            Turtle.X = 100;
+            Turtle.Y = 100 - sizeK/2;
+            Turtle.Angle = 30;
+            Turtle.Move(sizeK/2 / 0.87);
+            Turtle.X = 100;
+            Turtle.Y = 100 - sizeK/2;
+            Turtle.Angle = 150;
+            Turtle.Move(sizeK/2 / 0.87);
+            // Буква K конец
+        }
+
+        static void WriteC(int sizeC)
+        {
+            // Буква "C" начало
+            Turtle.X = 140 + sizeC;
+            Turtle.Angle = -90;
+            for (int i = 0; i < 3; i++)
+            {
+                Turtle.Move(sizeC);
+                Turtle.TurnRight();
+            }
+            // Буква "C" конец
+        }
         static void Main(string[] args)
         {
             //Turtle.Speed = 8;
@@ -98,34 +125,53 @@ namespace TurtleTraining_ver_2
 
             // Торт
 
-            Turtle.Speed = 8;
-            Turtle.X = 200;
-            Turtle.Y = 200;
+            //Turtle.Speed = 8;
+            //Turtle.X = 200;
+            //Turtle.Y = 200;
 
-            WriteT(60);
+            //WriteT(60);
 
-            Turtle.X = 260;
-            Turtle.Y = 200;
+            //Turtle.X = 260;
+            //Turtle.Y = 200;
 
-            WriteO(30);
+            //WriteO(30);
 
-            Turtle.X = 330;
-            Turtle.Y = 200;
+            //Turtle.X = 330;
+            //Turtle.Y = 200;
 
-            WriteP(30);
+            //WriteP(30);
 
-            Turtle.X = 410;
-            Turtle.Y = 200;
+            //Turtle.X = 410;
+            //Turtle.Y = 200;
 
-            WriteT(30);
+            //WriteT(30);
 
             // Имя Ксю
 
-            //Turtle.Speed = 9;
-            //Turtle.X = 100;
-            //Turtle.Y = 100;
+            Turtle.Speed = 9;
+            Turtle.X = 100;
+            Turtle.Y = 100;
 
-            //Write
+            WriteK(60);
+
+            Turtle.X = 140;
+            Turtle.Y = 100;
+
+            WriteC(30);
+
+            Turtle.X = 180;
+            Turtle.Y = 100;
+
+            Turtle.Angle = 0;
+            Turtle.Move(30);
+            Turtle.X = 180;
+            Turtle.Y = 85;
+            Turtle.Angle = 90;
+            Turtle.Move(15);
+            Turtle.X = 195;
+            Turtle.Y = 100;
+            WriteO(30);
+
 
         }
     }
